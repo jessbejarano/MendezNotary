@@ -1,0 +1,118 @@
+body {
+  font-family: arial;
+  background-color: #202e45;
+}
+
+.top-div {
+  background-color: black;
+  text-align: center;
+}
+
+.feediv, .idsdiv, .servicesdiv {
+  background-color: #66706f6d;
+  margin: 50px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carouselExampleAutoplaying {
+  max-width: 1200px; /* Adjust the maximum width as per your requirement */
+  max-height: 1000px;
+  margin: 0 auto; 
+}
+
+header {
+  background-color: #202e45;
+  color:white;
+}
+
+header img {
+  width: 10%;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.top-div a:hover {
+  font-size: 20px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1 {
+  margin: 25px;
+  /* flex-shrink: 0; */
+  float: left;
+}
+
+.box1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.box2 {
+  margin: 25px;
+  float: right;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.navigation a:hover {
+  font-size: 20px;
+  background-color: #111b3d;
+  text-align: center;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; 
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  width: 70%; /* Adjust the width of the transparent box */
+  max-height: 200px;
+}
+
+.locate {
+  margin: 70px;
+}
+
+.graphicsdiv, .card {
+  color: white;
+  text-align: center;
+  background-color: #66706f6d;
+  border: 3px solid #0b0e26;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 2);
+  margin: 60px;
+}
+
+.card-img-top {
+  border-radius: 7px 7px 0 0;
+}
+
+.servicesflexbox, .id-flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  /* CSS styles for mobile devices here */
+}
